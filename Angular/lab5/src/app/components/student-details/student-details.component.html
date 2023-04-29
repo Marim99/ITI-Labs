@@ -1,0 +1,17 @@
+<div class="justify-content-center align-items-center d-flex mt-5">
+  <div class="card mt-5" *ngIf="Student; else falseBlock">
+    <div class="card-front">
+      <p class="title">{{ Student.name }}</p>
+      <p class="subtitle">{{ Student.job }}</p>
+    </div>
+    <div class="card-back">
+      <p class="">Email: {{ Student.email }}</p>
+      <p class="">Phone: {{ Student.phone }}</p>
+      <p class="">Age: {{ Student.age }}</p>
+    </div>
+  </div>
+</div>
+
+<ng-template #falseBlock>
+  <div class="loading">Loading&#8230;</div>
+</ng-template>

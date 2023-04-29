@@ -1,0 +1,58 @@
+<div class="justify-content-center align-items-center d-flex mt-5 mb-5">
+  <form
+    class="form mb-5 mt-5"
+    [formGroup]="validationForm"
+    (ngSubmit)="
+      AddStudent(name.value, age.value, email.value, job.value, phone.value)
+    "
+  >
+    <p class="title">Add Student</p>
+    <div class="flex">
+      <label>
+        <input
+          required=""
+          #name
+          placeholder=""
+          type="text"
+          class="input"
+          formControlName="name"
+        />
+        <span [ngClass]="NameValid ? 'green' : 'red'">Name</span>
+      </label>
+
+      <label>
+        <input
+          required=""
+          #age
+          placeholder=""
+          type="number"
+          class="input"
+          formControlName="age"
+        />
+        <span [ngClass]="AgeValid ? 'green' : 'red'">Age</span>
+      </label>
+    </div>
+
+    <label>
+      <input
+        required=""
+        #email
+        placeholder=""
+        type="email"
+        class="input"
+        formControlName="email"
+      />
+      <span [ngClass]="EmailValid ? 'green' : 'red'">Email</span>
+    </label>
+
+    <label>
+      <input required="" #job placeholder="" type="text" class="input" />
+      <span>Job</span>
+    </label>
+    <label>
+      <input required="" #phone placeholder="" type="text" class="input" />
+      <span>Phone</span>
+    </label>
+    <input class="submit" type="submit" value="ADD" />
+  </form>
+</div>

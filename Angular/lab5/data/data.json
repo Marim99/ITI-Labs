@@ -1,0 +1,44 @@
+{
+  "students": [
+    {
+      "id": 2,
+      "name": "Hager",
+      "age": "24",
+      "job": "software engineer",
+      "email": "Hage@gmail.com",
+      "phone": "0114487987"
+    },
+    {
+      "id": 3,
+      "name": "Alaa khaled",
+      "age": "25",
+      "job": "civil Engineer",
+      "email": "Alaa@gmail.com",
+      "phone": "033333333"
+    },
+    {
+      "id": 4,
+      "name": "Radwa",
+      "age": 26,
+      "job": "software engineer",
+      "email": "Radwa@gmail.com",
+      "phone": "0444444"
+    },
+    {
+      "name": "mariam khaled saad",
+      "age": "24",
+      "email": "marim.khaled99@gmail.com",
+      "job": "software engineer",
+      "phone": "01117826857",
+      "id": 6
+    },
+    {
+      "name": "radwa",
+      "age": "20",
+      "email": "radwa@gmail.com",
+      "job": "engineer",
+      "phone": "054546566",
+      "id": 7
+    }
+  ]
+}

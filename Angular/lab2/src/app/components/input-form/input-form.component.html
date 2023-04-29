@@ -1,0 +1,13 @@
+<div class="form-container">
+  <div>
+    <input
+      type="text"
+      [value]="text"
+      [(ngModel)]="text"
+      placeholder="Enter Text"
+    />
+    <p>{{ text }}</p>
+
+    <button (click)="reset()" id="input-submit">Reset</button>
+  </div>
+</div>

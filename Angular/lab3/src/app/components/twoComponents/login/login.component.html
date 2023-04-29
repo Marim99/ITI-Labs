@@ -1,0 +1,16 @@
+<div class="form">
+  <input
+    type="text"
+    placeholder="Name"
+    [(ngModel)]="usrName"
+    [ngClass]="usrName && usrName.length >= 3 ? 'green' : 'red'"
+  />
+  <input
+    type="text"
+    placeholder="Age"
+    [(ngModel)]="usrAge"
+    [ngClass]="usrAge && +usrAge >= 20 && +usrAge <= 40 ? 'green' : 'red'"
+  />
+
+  <input type="button" value="Fire Now" (click)="fireNow()" />
+</div>

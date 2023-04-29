@@ -1,0 +1,17 @@
+<div class=".slider-container">
+  <div class="container">
+    <div class="slider">
+      <div class="slides-container">
+        <div class="slide current-slide slide-1">
+          <img src="{{ slides[currentSlid] }}" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="btn-container">
+    <button (click)="prev()">previous</button>
+    <button (click)="next()">Next</button>
+    <button (click)="startSlide()">Start</button>
+    <button (click)="stopSlide()">Stop</button>
+  </div>
+</div>

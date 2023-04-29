@@ -1,0 +1,19 @@
+<h1>Students</h1>
+<table class="container">
+  <thead>
+    <tr>
+      <th>num</th>
+      <th>Name</th>
+      <th>Age</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Directive -->
+    <tr *ngFor="let s of students; index as i">
+      <td>{{ i + 1 }}</td>
+      <td>{{ s.name }}</td>
+      <td>{{ s.age }}</td>
+      <!-- <td *ngIf="+s.age<40">{{s.age}}</td> -->
+    </tr>
+  </tbody>
+</table>
