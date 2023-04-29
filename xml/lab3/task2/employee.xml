@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<employees>
+    <employee>
+        <name>Employee Name: Mariam khaled</name>
+        <phones>
+        <phone type="work">Work phone: 01118726857</phone>
+        <phone type="mobile">Mobile phone: 01118726857</phone>
+        </phones>
+        <addresses>
+        <address>
+            <street>Street: 16 Main St.</street>
+            <city>City: alex</city>
+            <country>Country: Egypt</country>
+            <building>Building: 16</building>
+            <region>Region: sidi bashr</region>
+        </address>
+             <address>
+            <street>Street: 16 Main St.</street>
+            <city>City: alex</city>
+            <country>Country: Egypt</country>
+            <building>Building: 16</building>
+            <region>Region: sidi bashr</region>
+        </address>
+          </addresses>
+        <email>Email: mariam@gmail.com</email>
+    </employee>
+    <employee>
+        <name>Employee Name: Hager khaeld</name>
+         <phones>
+        <phone type="work">Work phone: 01118726857</phone>
+        <phone type="mobile">Mobile phone: 01118726857</phone>
+         </phones>
+     <addresses>
+        <address>
+            <street>Street: 16 Main St.</street>
+            <city>City: alex</city>
+            <country>Country: Egypt</country>
+            <building>Building: 16</building>
+            <region>Region: sidi bashr</region>
+        </address>
+    </addresses>
+        <email>Email: Hager@yahoo.com</email>
+    </employee>
+</employees>

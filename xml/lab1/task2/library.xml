@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" ?>
+<library>
+  <location>123 Main St, Anytown</location>
+  <description>A community library with a wide variety of books.</description>
+  <librarian>John Smith</librarian>
+  <books>
+    <book>
+      <title>The Great Gatsby</title>
+      <isbn>978-3-16-148410-0</isbn>
+      <author>F. Scott Fitzgerald</author>
+      <preface>
+        <title>Preface</title>
+        <content>A short introduction to the book.</content>
+      </preface>
+      <parts>
+        <part>
+          <title>Part 1</title>
+          <chapters>
+            <chapter>
+              <title>Chapter 1</title>
+              <summary>A brief summary of the chapter.</summary>
+              <sections>
+                <section>A paragraph of content.</section>
+                <section>Another paragraph of content.</section>
+              </sections>
+            </chapter>
+            <chapter>
+              <title>Chapter 2</title>
+              <summary>A brief summary of the chapter.</summary>
+              <sections>
+                <section>A paragraph of content.</section>
+                <section>Another paragraph of content.</section>
+              </sections>
+            </chapter>
+          </chapters>
+        </part>
+        <part>
+          <title>Part 2</title>
+          <chapters>
+            <chapter>
+              <title>Chapter 3</title>
+              <summary>A brief summary of the chapter.</summary>
+              <sections>
+                <section>A paragraph of content.</section>
+                <section>Another paragraph of content.</section>
+              </sections>
+            </chapter>
+            <chapter>
+              <title>Chapter 4</title>
+              <summary>A brief summary of the chapter.</summary>
+              <sections>
+                <section>A paragraph of content.</section>
+                <section>Another paragraph of content.</section>
+              </sections>
+            </chapter>
+          </chapters>
+        </part>
+      </parts>
+    </book>
+    <book>
+      <title>To Kill a Mockingbird</title>
+      <isbn>978-3-16-148420-0</isbn>
+      <author>Harper Lee</author>
+      <preface>
+        <title>Preface</title>
+        <content>A short introduction to the book.</content>
+      </preface>
+      <parts>
+        <part>
+          <title>Part 1</title>
+          <chapters>
+            <chapter>
+              <title>Chapter 1</title>
+              <summary>A brief summary of the chapter.</summary>
+              <sections>
+                <section>A paragraph of content.</section>
+                <section>Another paragraph of content.</section>
+              </sections>
+            </chapter>
+            <chapter>
+              <title>Chapter 2</title>
+              <summary>A brief summary of the chapter.</summary>
+              <sections>
+                <section>A paragraph of content.</section>
+                <section>Another paragraph of content.</section>
+              </sections>
+            </chapter>
+          </chapters>
+        </part>
+        <part>
+          <title>Part 2</title>
+          <chapters>
+            <chapter>
+              <title>Chapter 3</title>
+              <summary>A brief summary of the chapter.</summary>
+              <sections>
+                <section>A paragraph of content.</section>
+                <section>Another paragraph of content.</section>
+              </sections>
+            </chapter>
+            <chapter>
+              <title>Chapter 4</title>
+              <summary>A brief summary of the chapter.</summary>
+              <sections>
+                <section>A paragraph of content.</section>
+                <section>Another paragraph of content.</section>
+              </sections>
+            </chapter>
+          </chapters>
+        </part>
+      </parts>
+    </book>
+  </books>
+</library>

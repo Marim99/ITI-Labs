@@ -1,0 +1,57 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="employee.css"?>
+<employees>
+
+	<employee isbn="_1">
+		<name>mariam</name>
+		<email>marim.khaled@gmail.com</email>
+		<phones>
+			<phone type="mobile">01118726857</phone>
+			<phone type="home">03 3560705</phone>
+		</phones>
+		<addresses>
+			<address>
+			    <country>Egypt</country>
+			    <city>Alexandria</city>
+			    <region>sidi-bsher</region>
+				<street>16 mahmoud reda</street>
+				<building-no>16</building-no>
+			</address>
+		</addresses>
+	</employee>
+<employee isbn="_2">
+		<name>hager</name>
+		<email>hager@gmail.com</email>
+		<phones>
+			<phone type="mobile">01144342836</phone>
+			<phone type="home">03 3560705</phone>
+		</phones>
+		<addresses>
+			<address>
+			    <country>Egypt</country>
+			    <city>Alexandria</city>
+			    <region>sidi-bsher</region>
+				<street>16 mahmoud reda</street>
+				<building-no>16</building-no>
+			</address>
+		</addresses>
+	</employee>
+    	<employee isbn="_3">
+		<name>radwa</name>
+		<email>radwa@gmail.com</email>
+		<phones>
+			<phone type="mobile">01094773336</phone>
+			<phone type="home">03 4268003</phone>
+		</phones>
+		<addresses>
+			<address>
+			    <country>Egypt</country>
+			    <city>Alexandria</city>
+			    <region>smouhha</region>
+				<street>mahmoud al attar</street>
+				<building-no>26</building-no>
+			</address>
+		</addresses>
+	</employee>
+</employees>
