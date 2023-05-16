@@ -1,0 +1,26 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+input {
+    background-color: #eee;
+    width: 80%;
+    border: 0;
+    padding: 10px 0;
+    margin: 5px 0;
+    text-align: center;
+    color: #111;
+    border-radius: 5px;
+    font-weight: bold;
+    outline: none;
+  }
+
+  .green {
+    background-color: green;
+  }
+  .red{
+    background-color: red;
+  }
