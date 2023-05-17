@@ -3,10 +3,7 @@ import Register from "../Register/Register";
 import AllStudent from "../AllStudent/AllStudent";
 
 export default class Home extends Component {
-  students = [
-    { name: "Mariam", age: 24 },
-    { name: "Hager", age: 24 },
-  ];
+  students = [{ name: "Mariam", age: 24 }];
   constructor(props) {
     super(props);
     console.log(this.props);
