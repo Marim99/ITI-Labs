@@ -27,9 +27,9 @@ jobs:
       - name: build docker image and push to hub
         uses: mr-smithers-excellent/docker-build-push@v6
         with:
-          image: mariam99/dockerlab
+          image: my-docker/docker-lab
           registry: docker.io
           dockerfile: dockerfile
           username: "${{ secrets.REPO_USERNAME }}"
           password: "${{ secrets.REPO_PASSWORD }}"
-          tags: tagname
+          tags: myapp
