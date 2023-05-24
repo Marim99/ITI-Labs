@@ -1,0 +1,18 @@
+{% extends 'main/base_layout.html' %} {% block main-content %}
+<div class="container d-flex flex-column align-items-center">
+  <div class="row">
+    <div class="col-12 mt-4">
+      <form method="put" action="{% url 'bookStore:book-update' book.id %}">
+        {% csrf_token %} {{form.as_p}}
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <div class="text-center mt-5" style="display: inline">
+          <a href="{% url 'bookStore:books-list'  %}">
+            <button type="button" class="btn btn-info">Back to list</button>
+          </a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -1,65 +1,54 @@
 {% extends 'main/base_layout.html' %}{% block main-content %}
-<table class="table table-condensed">
-  <thead>
-    <tr>
-      <td>ID</td>
-      <td>Name</td>
-      <td>Priority</td>
-      <td>Description</td>
-      <td>Actions</td>
-    </tr>
-    <a class="btn btn-info" href="{% url 'bookStore:book-create' %}"> Create</a>
-  </thead>
+<div class="container">
+  <table class="table table-condensed mt-5 p-4">
+    <thead>
+      <tr>
+        <td>ID</td>
+        <td>Name</td>
+        <td>pages</td>
+        <td>Description</td>
+        <td>Actions</td>
+      </tr>
+    </thead>
 
-  <tbody>
-    {% for book in book_list%}
-    <tr
-      {%
-      if
-      book.priority
-      3
-      %}
-      style="color: red"
-      {%
-      else
-      %}
-      style="color: green"
-      {%
-      endif
-      %}
-    >
-      <td>{{ book.id }}</td>
-      <td>{{ book.name }}</td>
-      <td>{{ book.priority }}</td>
-      <td>{{ book.description | truncatewords:2 | title }}</td>
+    <tbody class="m-4">
+      {% for book in books%}
+      <tr>
+        <td>{{ book.id }}</td>
+        <td>{{ book.name }}</td>
+        <td>{{ book.pages }}</td>
+        <td>{{ book.description | truncatewords:2 | title }}</td>
 
-      <td>
-        <a
-          class="btn btn-info"
-          href="{% url 'bookStore:book-detail' book.id %}"
-        >
-          View</a
-        >
-        <a
-          class="btn btn-info"
-          href="{% url 'bookStore:book-update' book.id %}"
-        >
-          Update</a
-        >
-        <a
-          class="btn btn-danger"
-          href="{% url 'bookStore:book-delete' book.id %}"
-        >
-          Delete</a
-        >
-      </td>
-    </tr>
+        <td>
+          <a
+            class="btn btn-info"
+            href="{% url 'bookStore:book-detail' book.id %}"
+          >
+            View</a
+          >
+          <a
+            class="btn btn-info"
+            href="{% url 'bookStore:book-update' book.id %}"
+          >
+            Update</a
+          >
+          <a
+            class="btn btn-danger"
+            href="{% url 'bookStore:book-delete' book.id %}"
+          >
+            Delete</a
+          >
+        </td>
+      </tr>
 
-    {% empty %}
-    <tr>
-      <td colspan="3" class="text-center">sorr, not task in list</td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
+      {% empty %}
+      <tr>
+        <td colspan="3" class="text-center">sorr, not task in list</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  <a class="btn btn-info" href="{% url 'bookStore:book-create' %}"> Create</a>
+</div>
 {% endblock %}
