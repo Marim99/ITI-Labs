@@ -1,24 +1,7 @@
 # lab2
 
-## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
+https://github.com/Marim99/ITI-Labs/assets/78925756/da2ed951-5b46-4fad-9bd5-7c7db4a33614
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
